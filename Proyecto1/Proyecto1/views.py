@@ -32,3 +32,5 @@ def probandoHtml(request):
     contexto=Context()
     documento=plantilla.render(contexto)
     return HttpResponse(documento)
+
+#hola gordo
